@@ -20,7 +20,8 @@ export class PostsComponent implements OnInit {
     console.log(this.mensajes);
     console.log(`2`);
 
-    // .subscribe( (posts: any[]) => {
+    // DE MANERA TRADICIONAL
+    // this.mensajes = this.dataService.getPosts().subscribe( (posts: any[]) => {
     //   console.log(posts);
     //   this.mensajes = posts;
     // });
